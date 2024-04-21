@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: userservice
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driverClassName: org.postgresql.Driver
+    username: admin
+    password: 1qaz2wsx
+    url: jdbc:postgresql://localhost:5433/ecom?autoReconnect=true
+server:
+  port: 9001
